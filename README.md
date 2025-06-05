@@ -2,6 +2,7 @@
 
 ## Description
 This project implements an intelligent system for detecting fake news using Graph Neural Networks (GNN). The system analyzes news propagation patterns in social networks, combining graph structural information with text features and user behavior to effectively identify misinformation. By modeling the news spread as a graph, where nodes represent tweets/posts and edges represent interactions, our approach captures both content and propagation dynamics.
+please extract file nx_network_data.zip
 
 ## Key Features
 - Multiple GNN architectures (GCN, GAT, GraphSAGE)
@@ -31,7 +32,7 @@ networkx
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fake-news-detection.git
+git clone https://github.com/mohammadbaghershahmir/fake-news-detection.git
 cd fake-news-detection
 ```
 
@@ -138,9 +139,9 @@ We welcome contributions! Please follow these steps:
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Authors
-- Your Name
-- Contributors
+## Author
+- MohammadBagher Shahmir
+
 
 ## Acknowledgments
 - PyTorch Geometric team for the excellent framework
@@ -149,6 +150,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 For questions and suggestions:
-- Email: your.email@example.com
+- Email: mohammadbaghershahmir@gmail.com
 - Twitter: @yourusername
 - GitHub Issues: Create an issue in this repository 
