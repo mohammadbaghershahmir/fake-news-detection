@@ -38,32 +38,9 @@ cd fake-news-detection
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate fake-news-env
 ```
-
-## Project Structure
-```
-├── main.py             # Main execution file
-├── model.py            # GNN architecture implementations
-├── preprocess.py       # Data preprocessing and graph construction
-├── trainer.py          # Model training management
-├── evaluate.py         # Evaluation functions
-├── visualize.py        # Visualization tools
-├── util.py            # Helper functions
-├── requirements.txt    # Project dependencies
-└── README.md          # Documentation
-```
-
-## Data Structure
-```
-data/
-├── raw/               # Raw tweet data
-│   ├── fake/         # Fake news tweets
-│   └── real/         # Real news tweets
-├── processed/         # Processed graph data
-└── features/         # Extracted features
-```
-
 ## Usage
 1. Data Preprocessing:
 ```bash
@@ -151,5 +128,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 For questions and suggestions:
 - Email: mohammadbaghershahmir@gmail.com
-- Twitter: @yourusername
 - GitHub Issues: Create an issue in this repository 
